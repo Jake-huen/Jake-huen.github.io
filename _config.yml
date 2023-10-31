@@ -2,7 +2,7 @@
 repository: sproogen/resume-theme
 favicon: images/profile.png
 url: "https://jake-huen.github.io/"
-title: 할아버지가 되어서도 성장하고 싶은 개발자
+title: 평생 성장하고 싶은 개발자
 locale : "ko-KR"
 # Content configuration version
 version: 2
@@ -73,7 +73,7 @@ content:
           졸업프로젝트
           기간 : 2023.03 ~ 2023.11
         description: | # this will include new lines to allow paragraphs
-          
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
