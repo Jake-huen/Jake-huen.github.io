@@ -69,22 +69,24 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
+        quote: |
           졸업프로젝트
-          >
+          |
           기간 : 2023.03 ~ 2023.11
-          >
+          |
           IDEA 1. 건국대학교에 있는 평소에 잘 사용되지 않는 컴퓨터들을 하나로 클러스터링 하여 학생들에게 제공하면 어떨까?
-          >
+          |
           IDEA 2. 컴퓨터공학부 학생들이 코드를 짜며, 수 많은 빌드 및 배포를 하게 되는데 이 과정을 자동화 할 수는 없을까?
-          >
+          |
           IDEA 3. 빌드와 배포를 자동화 하려면 여러가지 프레임워크를 사용해야 하는데, 복잡한 프레임워크에 대한 자세한 사용법 없이 이러한 기능들을 사용할 수는 없을까?
         description: | # this will include new lines to allow paragraphs
           건국대학교 학생들을 위해 CI, CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스.
+          
           CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
+          
           Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
           
-          [주요기능]
+          주요기능
           
           클러스터링 
             : 유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상
@@ -94,63 +96,72 @@ content:
           
           모니터링
             : 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인
-  - title: MZTI - MBTI 과몰입 방지 서비스
-    layout: list
-    link: https://github.com/TEAMMZC/MZTI
-    # link_text: Project Website
-    additional_links:
-      - title: sproogen/modern-resume-theme
-        icon: fab fa-github
-        url: https://github.com/TEAMMZC/MZTI
-      # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #   icon: fab fa-github
-      #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-    quote: >
-      건국대학교 해커톤 오케스트라 - 주제(MZ세대)
-      >
-      수상 : 우수상
-      >
-      기간 : 2023.08 ~ 2023.08
-      >
-      IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?
-      >
-      IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?
-      >
-      IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?
-    description: | # this will include new lines to allow paragraphs
-      MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트
-      
-      [주요기능]
-      
-      - MBTI 유형 비교
-      - MBTI 학습
-      - 프로필 및 회원정보
-      - 로그인, 회원가입
-  - title: 모여타 - 택시팟 매칭 서비스
-    layout: list
-    link: https://github.com/TeamFighting
-    # link_text: Project Website
-    additional_links:
-      - title: sproogen/modern-resume-theme
-        icon: fab fa-github
-        url: https://github.com/TeamFighting/MoyeoTa-Back
-      # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #   icon: fab fa-github
-      #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-    quote: >
-      기간 : 2023.08 ~ 2023.11
-    description: | # this will include new lines to allow paragraphs
-      [서비스 기능]
-      
-      - 실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.
-      - 동승자 간의 거리 별 더치페이를 제공합니다.
-      - 합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.
+
+  - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: MZTI
+        link: https://github.com/TEAMMZC/MZTI
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TEAMMZC/MZTI
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          건국대학교 해커톤 오케스트라 - 주제(MZ세대)
+          >
+          수상 : 우수상
+          >
+          기간 : 2023.08 ~ 2023.08
+          >
+          IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?
+          >
+          IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?
+          >
+          IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?
+        description: | # this will include new lines to allow paragraphs
+          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트
+          
+          [주요기능]
+          
+          - MBTI 유형 비교
+          - MBTI 학습
+          - 프로필 및 회원정보
+          - 로그인, 회원가입
+
+  - title: 모여타 - 택시팟 매칭 서비스 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 모여타 - 택시팟 매칭 서비스
+        link: https://github.com/TeamFighting
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TeamFighting
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          기간 : 2023.08 ~ 2023.11
+        description: | # this will include new lines to allow paragraphs
+          [서비스 기능]
+          
+          - 실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.
+          - 동승자 간의 거리 별 더치페이를 제공합니다.
+          - 합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 건국대학교
-        link: https://www.konkuk.ac.kr/do/Index.do
+        link: https://www.konkuk.ac.kr
         # link_text: boringcompany.com
         sub_title: 건국대학교 컴퓨터공학과
 #        caption: 2018.03 ~ 2023.12
@@ -168,7 +179,7 @@ content:
         quote: >
           2019.08 ~ present
         description: |
-          기록하며 성장을 도모하는 것을 좋아합니다.
+          기록하며 성장을 도모하는 것을 좋아합니다. 꾸준히 개발에 대한 시행착오와 경험을 기록중입니다.
 
 # Footer
 footer_show_references: true
