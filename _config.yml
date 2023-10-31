@@ -58,49 +58,90 @@ content:
   - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Kuploy
         link: https://github.com/K-luster/KlusterWeb
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/K-luster/KlusterWeb
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           졸업프로젝트
           기간 : 2023.03 ~ 2023.11
+          IDEA 1. 건국대학교에 있는 평소에 잘 사용되지 않는 컴퓨터들을 하나로 클러스터링 하여 학생들에게 제공하면 어떨까?
+          IDEA 2. 컴퓨터공학부 학생들이 코드를 짜며, 수 많은 빌드 및 배포를 하게 되는데 이 과정을 자동화 할 수는 없을까?
+          IDEA 3. 빌드와 배포를 자동화 하려면 여러가지 프레임워크를 사용해야 하는데, 복잡한 프레임워크에 대한 자세한 사용법 없이 이러한 기능들을 사용할 수는 없을까?
         description: | # this will include new lines to allow paragraphs
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          건국대학교 학생들을 위해 CI, CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스.
+          - CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
+          - Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
+          [주요기능]
+          클러스터링 
+            : 유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상
+          CI CD
+            : CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함
+          모니터링
+            : 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: MZTI - MBTI 과몰입 방지 서비스
+        link: https://github.com/TEAMMZC/MZTI
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TEAMMZC/MZTI
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          건국대학교 해커톤 오케스트라 - 주제(MZ세대)
+          수상 : 우수상
+          기간 : 2023.08 ~ 2023.08
+          IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?
+          IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?
+          IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트
+          [주요기능]
+          1. MBTI 유형 비교
+          2. MBTI 학습
+          3. 프로필 및 회원정보
+          4. 로그인, 회원가입
+      - layout: left
+        title: 모여타 - 택시팟 매칭 서비스
+        link: https://github.com/TeamFighting
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TeamFighting/MoyeoTa-Back
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          기간 : 2023.08 ~ 2023.11
+        description: | # this will include new lines to allow paragraphs
+          [서비스 기능]
+          실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.
+          동승자 간의 거리 별 더치페이를 제공합니다.
+          합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: 건국대학교
+        link: https://www.konkuk.ac.kr/do/Index.do
+        # link_text: boringcompany.com
+        sub_title: 건국대학교 컴퓨터공학과
+#        caption: 2018.03 ~ 2023.12
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          2018.03 ~ 2023.12
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          건국대학교 컴퓨터공학과 학생으로 네트워크 및 팀프로젝트, 79학점의 전공학점을 취득하였습니다.
 
   - title: A Little More About Me
     layout: text
