@@ -63,39 +63,33 @@ content:
 
       - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
         layout: list # Type of content section (list/text)
-        content:
-          - layout: left
-            title: MZTI
-            link: https://github.com/TEAMMZC/MZTI
-            sub_title: 건국대학교 해커톤 오케스트라 - 우수상
-            caption: 2023.08 ~ 2023.08
-            description: | # this will include new lines to allow paragraphs
-              MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트<br><br>
-              IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?<br><br>
-              IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?<br><br>
-              IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?<br><br>
-              <br><br>
-              [주요기능]<br><br>
-              MBTI 유형 비교<br><br>
-              MBTI 학습<br><br>
-              프로필 및 회원정보<br><br>
-              로그인, 회원가입<br><br>
-              <br><br>
-              [기술스택]<br><br>
-              - <mark>AOS</mark>, <mark>Spring boot</mark>, <mark>AWS EC2</mark>, <mark>AWS S3</mark>, <mark>Docker</mark>
+        link: https://github.com/TEAMMZC/MZTI
+        sub_title: 건국대학교 해커톤 오케스트라 - 우수상
+        caption: 2023.08 ~ 2023.08
+        description: | # this will include new lines to allow paragraphs
+          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트<br><br>
+          IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?<br><br>
+          IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?<br><br>
+          IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?<br><br>
+          <br><br>
+          [주요기능]<br><br>
+          MBTI 유형 비교<br><br>
+          MBTI 학습<br><br>
+          프로필 및 회원정보<br><br>
+          로그인, 회원가입<br><br>
+          <br><br>
+          [기술스택]<br><br>
+          - <mark>AOS</mark>, <mark>Spring boot</mark>, <mark>AWS EC2</mark>, <mark>AWS S3</mark>, <mark>Docker</mark>
 
       - title: 모여타 - 택시팟 매칭 서비스
         layout: list
-        content:
-          - layout: left
-            title: 모여타 - 택시팟 매칭 서비스
-            link: https://github.com/TeamFighting
-            caption: 2023.08 ~ 2023.11
-            description: |
-              [서비스 기능]<br><br>
-              실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.<br><br>
-              동승자 간의 거리 별 더치페이를 제공합니다.<br><br>
-              합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.<br><br>
+        link: https://github.com/TeamFighting
+        caption: 2023.08 ~ 2023.11
+        description: |
+          [서비스 기능]<br><br>
+          실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.<br><br>
+          동승자 간의 거리 별 더치페이를 제공합니다.<br><br>
+          합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.<br><br>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
