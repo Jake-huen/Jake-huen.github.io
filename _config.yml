@@ -1,48 +1,21 @@
-# Site
 repository: sproogen/resume-theme
 favicon: images/profile.png
 url: "https://jake-huen.github.io/"
 title: 평생 성장하고 싶은 개발자
 locale : "ko-KR"
-# Content configuration version
 version: 2
 
-# Personal info
 name: 김태헌
 email: taehuen7757@gmail.com
 
-# Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
 github_username:  Jake-huen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
 instagram_username: tt_honeyee
-# xing_username: jekyll
-# pinterest_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
 additional_links:
 - title: tistory blog
   icon: "fab blogger"
   url: https://jobdong7757.tistory.com/
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
 about_profile_image: images/jake-huen.jpeg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요 주니어 백엔드 개발자 김태헌입니다. 
@@ -55,106 +28,74 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: 졸업프로젝트 # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        title: Kuploy
+        title: 졸업프로젝트 - Kuploy
         link: https://github.com/K-luster/KlusterWeb
-        # link_text: Project Website
+        sub_title: Spring 백엔드 및 CI/CD 담당
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/K-luster/KlusterWeb
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: |
-          졸업프로젝트
-          |
-          기간 : 2023.03 ~ 2023.11
-          |
-          IDEA 1. 건국대학교에 있는 평소에 잘 사용되지 않는 컴퓨터들을 하나로 클러스터링 하여 학생들에게 제공하면 어떨까?
-          |
-          IDEA 2. 컴퓨터공학부 학생들이 코드를 짜며, 수 많은 빌드 및 배포를 하게 되는데 이 과정을 자동화 할 수는 없을까?
-          |
-          IDEA 3. 빌드와 배포를 자동화 하려면 여러가지 프레임워크를 사용해야 하는데, 복잡한 프레임워크에 대한 자세한 사용법 없이 이러한 기능들을 사용할 수는 없을까?
-        description: | # this will include new lines to allow paragraphs
-          건국대학교 학생들을 위해 CI, CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스.
+          - title: Kuploy 웹 서비스 링크
+            url: http://kluster.iptime.org:9000/
+        caption: 2023.03 ~ 2023.11
+        description: |
+          IDEA 1. 건국대학교에 있는 평소에 잘 사용되지 않는 컴퓨터들을 하나로 클러스터링 하여 학생들에게 제공하면 어떨까?<br><br>
+          IDEA 2. 컴퓨터공학부 학생들이 코드를 짜며, 수 많은 빌드 및 배포를 하게 되는데 이 과정을 자동화 할 수는 없을까?<br><br>
+          IDEA 3. 빌드와 배포를 자동화 하려면 여러가지 프레임워크를 사용해야 하는데, 복잡한 프레임워크에 대한 자세한 사용법 없이 이러한 기능들을 사용할 수는 없을까?<br><br>
+          건국대학교 학생들을 위해 CI, CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스.<br><br>
+          CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌<br><br>
+          Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌<br><br>
+          <br><br>
+          모든 기능은 Kuploy 웹 서비스로 동작합니다. 
+          <br><br>
+          [주요기능]<br><br>
+          클러스터링 <br><br>
+            : 유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상<br><br>
+          - <mark>Kubernetes</mark>
+          CI/CD<br><br>
+            : CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함<br><br>
+          - <mark>Docker</mark>, <mark>Github Action</mark>, <mark>Docker-compose</mark>
+          모니터링 및 웹 서비스<br><br>
+            : 전체적인 기능 동작 및, 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인<br><br>
+          - <mark>Spring Boot</mark>, <mark>Svlete</mark>, <mark>MySQL</mark>
           
-          CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
-          
-          Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌
-          
-          주요기능
-          
-          클러스터링 
-            : 유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상
-          
-          CI CD
-            : CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함
-          
-          모니터링
-            : 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인
 
-  - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: MZTI
-        link: https://github.com/TEAMMZC/MZTI
-        # link_text: Project Website
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/TEAMMZC/MZTI
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          건국대학교 해커톤 오케스트라 - 주제(MZ세대)
-          >
-          수상 : 우수상
-          >
-          기간 : 2023.08 ~ 2023.08
-          >
-          IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?
-          >
-          IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?
-          >
-          IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?
-        description: | # this will include new lines to allow paragraphs
-          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트
-          
-          [주요기능]
-          
-          - MBTI 유형 비교
-          - MBTI 학습
-          - 프로필 및 회원정보
-          - 로그인, 회원가입
+      - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
+        layout: list # Type of content section (list/text)
+        content:
+          - layout: left
+            title: MZTI
+            link: https://github.com/TEAMMZC/MZTI
+            sub_title: 건국대학교 해커톤 오케스트라 - 우수상
+            caption: 2023.08 ~ 2023.08
+            description: | # this will include new lines to allow paragraphs
+              MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트<br><br>
+              IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?<br><br>
+              IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?<br><br>
+              IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?<br><br>
+              <br><br>
+              [주요기능]<br><br>
+              MBTI 유형 비교<br><br>
+              MBTI 학습<br><br>
+              프로필 및 회원정보<br><br>
+              로그인, 회원가입<br><br>
+              <br><br>
+              [기술스택]<br><br>
+              - <mark>AOS</mark>, <mark>Spring boot</mark>, <mark>AWS EC2</mark>, <mark>AWS S3</mark>, <mark>Docker</mark>
 
-  - title: 모여타 - 택시팟 매칭 서비스 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 모여타 - 택시팟 매칭 서비스
-        link: https://github.com/TeamFighting
-        # link_text: Project Website
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/TeamFighting
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          기간 : 2023.08 ~ 2023.11
-        description: | # this will include new lines to allow paragraphs
-          [서비스 기능]
-          
-          - 실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.
-          - 동승자 간의 거리 별 더치페이를 제공합니다.
-          - 합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.
+      - title: 모여타 - 택시팟 매칭 서비스
+        layout: list
+        content:
+          - layout: left
+            title: 모여타 - 택시팟 매칭 서비스
+            link: https://github.com/TeamFighting
+            caption: 2023.08 ~ 2023.11
+            description: |
+              [서비스 기능]<br><br>
+              실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.<br><br>
+              동승자 간의 거리 별 더치페이를 제공합니다.<br><br>
+              합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.<br><br>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -162,22 +103,18 @@ content:
       - layout: left
         title: 건국대학교
         link: https://www.konkuk.ac.kr
-        # link_text: boringcompany.com
+        caption: 2018.03 ~ 2023.12
         sub_title: 건국대학교 컴퓨터공학과
-#        caption: 2018.03 ~ 2023.12
-        quote: >
-          2018.03 ~ 2023.12
-        description: | # this will include new lines to allow paragraphs
+        description: |
           건국대학교 컴퓨터공학과 수업에서 79학점의 전공학점을 취득하였습니다
 
   - title: 블로그
     layout: list
-    content: # this will include new lines to allow paragraphs
+    content:
       - layout: left
         title: 개발 블로그
         link: https://jobdong7757.tistory.com/
-        quote: >
-          2019.08 ~ present
+        caption: 2019.08 ~ present
         description: |
           기록하며 성장을 도모하는 것을 좋아합니다. 꾸준히 개발에 대한 시행착오와 경험을 기록중입니다.
 
