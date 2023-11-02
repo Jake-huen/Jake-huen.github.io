@@ -51,14 +51,14 @@ content:
           <br><br>
           [주요기능]<br><br>
           클러스터링 <br><br>
-            : 유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상<br><br>
+          유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상<br><br>
           - <mark>Kubernetes</mark>
           CI/CD<br><br>
-            : CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함<br><br>
+          CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함<br><br>
           - <mark>Docker</mark>, <mark>Github Action</mark>, <mark>Docker-compose</mark>
           모니터링 및 웹 서비스<br><br>
-            : 전체적인 기능 동작 및, 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인<br><br>
-          - <mark>Spring Boot</mark>, <mark>Svlete</mark>, <mark>MySQL</mark>
+          전체적인 기능 동작 및, 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인<br><br>
+          - <mark>Spring Boot</mark>, <mark>Svelte</mark>, <mark>MySQL</mark>
           
 
       - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
