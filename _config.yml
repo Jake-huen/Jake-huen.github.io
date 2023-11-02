@@ -1,3 +1,4 @@
+---
 repository: sproogen/resume-theme
 favicon: images/profile.png
 url: "https://jake-huen.github.io/"
@@ -13,11 +14,11 @@ darkmode: true
 github_username:  Jake-huen
 instagram_username: tt_honeyee
 additional_links:
-- title: tistory blog
-  icon: "fab blogger"
-  url: https://jobdong7757.tistory.com/
+  - title: tistory blog
+    icon: "fab blogger"
+    url: https://jobdong7757.tistory.com/
 about_profile_image: images/jake-huen.jpeg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   안녕하세요 주니어 백엔드 개발자 김태헌입니다. 
   
   같이 일하고 싶어하는 개발자가 되고 싶습니다.
@@ -25,7 +26,6 @@ about_content: | # this will include new lines to allow paragraphs
   Spring 백엔드 개발과 데브옵스에 대해 관심이 많습니다.
   
   저는 항상 새로운 기술에 대한 열정이 있으며, 할아버지가 되어서도 성장하고 싶습니다.
-#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects
@@ -40,59 +40,25 @@ content:
             url: http://kluster.iptime.org:9000/
         caption: 2023.03 ~ 2023.11
         description: |
-          IDEA 1. 건국대학교에 있는 평소에 잘 사용되지 않는 컴퓨터들을 하나로 클러스터링 하여 학생들에게 제공하면 어떨까?<br><br>
-          IDEA 2. 컴퓨터공학부 학생들이 코드를 짜며, 수 많은 빌드 및 배포를 하게 되는데 이 과정을 자동화 할 수는 없을까?<br><br>
-          IDEA 3. 빌드와 배포를 자동화 하려면 여러가지 프레임워크를 사용해야 하는데, 복잡한 프레임워크에 대한 자세한 사용법 없이 이러한 기능들을 사용할 수는 없을까?<br><br>
-          건국대학교 학생들을 위해 CI, CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스.<br><br>
-          CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌<br><br>
-          Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌<br><br>
-          <br><br>
-          모든 기능은 Kuploy 웹 서비스로 동작합니다. 
-          <br><br>
-          [주요기능]<br><br>
-          클러스터링 <br><br>
-          유휴 컴퓨팅 리소스들을 하나로 클러스터링 하여, 가용성 및 성능 향상<br><br>
-          - <mark>Kubernetes</mark>
-          CI/CD<br><br>
-          CI CD 를 자동화함으로써 사용자가 빌드 및 배포 하는 과정을 편리하게 함<br><br>
-          - <mark>Docker</mark>, <mark>Github Action</mark>, <mark>Docker-compose</mark>
-          모니터링 및 웹 서비스<br><br>
-          전체적인 기능 동작 및, 사용자가 배포한 어플리케이션(혹은 서비스)가 정상 작동하는지, cpu 나 메모리는 얼마나 사용중인지 확인<br><br>
-          - <mark>Spring Boot</mark>, <mark>Svelte</mark>, <mark>MySQL</mark>
-          
+          건국대학교 학생들을 위해 CI/CD 과정을 자동화하여 편리하게 빌드 및 배포를 도와주는 웹 서비스. CI, CD를 모르는 사용자 : jar 파일만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌. Docker-Compose를 작성한 사용자 : Docker-compose와 Dockerfile만 업로드하면 클러스터링 된 컴퓨터에서 배포를 도와줌. 주요기능: 클러스터링, CI/CD, 모니터링 및 웹 서비스.
 
-      - title: MZTI - MBTI 과몰입 방지 서비스 # Title for the section
-        layout: list # Type of content section (list/text)
+      - title: MZTI - MBTI 과몰입 방지 서비스
+        layout: list
         link: https://github.com/TEAMMZC/MZTI
         sub_title: 건국대학교 해커톤 오케스트라 - 우수상
         caption: 2023.08 ~ 2023.08
-        description: | # this will include new lines to allow paragraphs
-          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트<br><br>
-          IDEA 1. MBTI에 과몰입한 사람들을 위해서 다른 MBTI를 이해하면서 게임을 하면 어떨까?<br><br>
-          IDEA 2. MBTI가 다른 사람들의 정보를 알려주면 어떨까?<br><br>
-          IDEA 3. 다른 친구들의 MBTI를 공유할 수 있으면 어떨까?<br><br>
-          <br><br>
-          [주요기능]<br><br>
-          MBTI 유형 비교<br><br>
-          MBTI 학습<br><br>
-          프로필 및 회원정보<br><br>
-          로그인, 회원가입<br><br>
-          <br><br>
-          [기술스택]<br><br>
-          - <mark>AOS</mark>, <mark>Spring boot</mark>, <mark>AWS EC2</mark>, <mark>AWS S3</mark>, <mark>Docker</mark>
+        description: |
+          MBTI에 과몰입하는 MZ 세대를 위해, 나와 다른 MBTI를 이해할 수 있도록 도와주는 프로젝트. 주요기능: MBTI 유형 비교, MBTI 학습, 프로필 및 회원정보, 로그인, 회원가입. 기술스택: AOS, Spring boot, AWS EC2, AWS S3, Docker.
 
       - title: 모여타 - 택시팟 매칭 서비스
         layout: list
         link: https://github.com/TeamFighting
         caption: 2023.08 ~ 2023.11
         description: |
-          [서비스 기능]<br><br>
-          실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다.<br><br>
-          동승자 간의 거리 별 더치페이를 제공합니다.<br><br>
-          합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.<br><br>
+          실명 인증 및 학교 인증을 통한 신원 확인이 가능합니다. 동승자 간의 거리 별 더치페이를 제공합니다. 합승을 통해 절약한 총 택시비 조회 서비스를 제공합니다.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: 건국대학교
@@ -100,7 +66,7 @@ content:
         caption: 2018.03 ~ 2023.12
         sub_title: 건국대학교 컴퓨터공학과
         description: |
-          건국대학교 컴퓨터공학과 수업에서 79학점의 전공학점을 취득하였습니다
+          건국대학교 컴퓨터공학과 수업에서 79학점의 전공학점을 취득하였습니다.
 
   - title: 블로그
     layout: list
@@ -112,9 +78,7 @@ content:
         description: |
           기록하며 성장을 도모하는 것을 좋아합니다. 꾸준히 개발에 대한 시행착오와 경험을 기록중입니다.
 
-# Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -124,4 +88,67 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+# Style and layout modifications
+scss: |
+  // Modify the style and layout here
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+  .page-content {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .project-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .project-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  .project-caption {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+
+  .project-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+
+  .project-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #007bff;
+  }
+
+  .project-mark {
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
